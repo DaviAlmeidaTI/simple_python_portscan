@@ -1,2 +1,2 @@
 # simple_python_portscan
-just a simple portscan
+just a very very simple portscan
