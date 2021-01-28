@@ -3,7 +3,7 @@
 
 import socket
 
-ip = raw_input("Digite o ip do alvo\n")
+ip = input("Digite o ip do alvo\n")
 
 for ports in range(1,65535):
 		s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
