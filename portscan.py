@@ -10,6 +10,6 @@ for ports in range(1,65535):
 		
 		if s.connect_ex((ip,ports)) == 0:
 
-			print "PORTA", ports, "ABERTA"
+			print ("PORTA", ports, "ABERTA")
 
 			s.close()
