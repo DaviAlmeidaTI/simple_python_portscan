@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3.8
 import socket
 
 print(""" __   __  ___  ___      ___                 __   __   __  ___  __   __            
