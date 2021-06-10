@@ -9,7 +9,7 @@ print(""" __   __  ___  ___      ___                 __   __   __  ___  __   __
 
 
 def scan():
-	ip = input("Digite o ip do alvo\n")
+	ip = input('Type the target IP')
 
 	for ports in range(1,65535):
 			s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -21,6 +21,6 @@ def scan():
 
 				
 				s.close()
-	print("scanneamento concluido")
+	print("Scan Success")
 
 scan()
